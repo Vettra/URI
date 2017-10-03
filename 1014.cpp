@@ -32,6 +32,6 @@ int main()
     
     t = a/b; //SEMPRE CONTAR DOUBLE COM DOUBLE, LEMBRE-SE!!
     
-    printf("%.3lf  km/l", t);//%.3lf PARA 3 CASAS DECIMAIS
+    printf("%.3lf km/l\n", t);//%.3lf PARA 3 CASAS DECIMAIS
     return 0;
 }
