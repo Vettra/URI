@@ -27,6 +27,6 @@ int main()
     
     a = pi*(r*r);
  
-    printf("A = %lf", a);
+    printf("A=%.4lf\n", a);
     return 0;
 }
