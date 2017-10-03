@@ -1,8 +1,13 @@
-////////////////////////////////////////
-//////////////PROBLEM 1010//////////////
-///////////////BY:VETTRA////////////////
-////////////////////////////////////////
-//////////////BIBLIOTECAS///////////////
+///////////////////////////////////
+//////Maratona de Programação//////
+////Supervisor: Douglas Cardoso////
+///////////////////////////////////
+//////URI JUGDE: Nível básico//////
+//////////Exercício: 1010//////////
+//////////Gustavo B. Ruiz//////////
+///////////////////////////////////
+
+///////////////////////////////////
 #include <algorithm>
 #include <fstream>
 #include <functional>
@@ -14,7 +19,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
-///////////////////////////////////////// 
+///////////////////////////////////
  
 int main()
 {
@@ -28,6 +33,6 @@ int main()
     
     t = (b*c) + (b2*c2);// O PROBLEMA PEDE A ENTRADA DA UNIDADE COMO VALOR INTEIRO, MAS LEMBRE DOS EXERCÍCIOS ANTERIORES, EVITE FAZER CONTAS DOUBLE COM INT, TRANSFORME TUDO EM DOUBLE
  
-    printf("VALOR A PAGAR: R$ %.2f\n", t);//2.lf PARA APENAS 2 CASAS DECIMAIS
+    printf("VALOR A PAGAR: R$ %.2lf\n", t);//2.lf PARA APENAS 2 CASAS DECIMAIS
     return 0;
 }
