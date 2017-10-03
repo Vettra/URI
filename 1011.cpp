@@ -6,7 +6,7 @@
 //////////Exercício: 1011//////////
 //////////Gustavo B. Ruiz//////////
 ///////////////////////////////////
-
+ 
 ///////////////////////////////////
 #include <algorithm>
 #include <fstream>
@@ -23,15 +23,15 @@
  
 int main()
 {
-    
+ 
     //////////VÁRIAVEIS//////////
         double pi=3.14159, r, v;
     /////////////////////////////
-    
+ 
     scanf("%lf", &r);//%lf PARA DOUBLE
-    
-    v = (4/3) * pi * (r^3);// "^" É UM RECURSO UTILIZADO PARA ELEVAR UM NÚMERO À "X", NO CASO RAIO ELEVADO À 3
-    
-    printf("VVOLUME =  %.3lf\n", t);//3.lf PARA APENAS 3 CASAS DECIMAIS
+ 
+    v = 4.0/3.0 * pi * pow(r, 3);// "pow" É UM RECURSO UTILIZADO PARA ELEVAR UM NÚMERO À "X", PREENTE NA BIBLIOTECA MATH
+ 
+    printf("VOLUME = %.3lf\n", v);//3.lf PARA APENAS 3 CASAS DECIMAIS
     return 0;
 }
