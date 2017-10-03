@@ -29,10 +29,10 @@ int main()
             int a, b, c;
     /////////////////////////////
     
-    scanf("%d %d", &a, &b);
+    scanf("%d %d", &a, &b);//"SCANF" ESCÂNEIA A VARÍAVEL DIGITADA PELO USUÁRIO. VARIÁVEIS "INT" LIDAS COM %d e ordenadas pós (" ",) com &
     
-    c = (a + b);
+    c = (a + b);//SOMA "+"
  
-    printf("X = %d\n", c);
+    printf("X = %d\n", c);//
     return 0;
 }
