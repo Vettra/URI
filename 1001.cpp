@@ -33,6 +33,6 @@ int main()
     
     c = (a + b);//SOMA "+"
  
-    printf("X = %d\n", c);//
+    printf("X = %d\n", c);// O \N SERVER PARA QUEBRA DE LINHAS, EM 99% DAS VEZES RELACIONADO A PRESENTATION ERROR
     return 0;
 }
