@@ -1,2 +1,2 @@
-# uri
-Codes URI Jugde
+# Maratona de Programação
+Codigos básicos corrigidos e comentados.
