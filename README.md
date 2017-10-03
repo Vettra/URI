@@ -1,2 +1,2 @@
 # Maratona de Programação
-Codigos básicos corrigidos e comentados.
+Codigos de nível básico, corrigidos e comentados, de exercícios do URI JUGDE.
