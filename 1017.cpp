@@ -27,7 +27,7 @@ int main()
     //////////VÁRIAVEIS//////////
         double x, y;
     /////////////////////////////
-    scanf("%lf %lf", &x &y);//%lf PARA DOUBLE, RESULTADO FINAL EM DECIMAL
+    scanf("%lf %lf", &x, &y);//%lf PARA DOUBLE, RESULTADO FINAL EM DECIMAL
     
     
     x = (x * y) / 12;//ESPERO QUE ATÉ AQUI VOCÊ CONSIGA FORMULAR ALGO TÃO SIMPLES!! SZ
