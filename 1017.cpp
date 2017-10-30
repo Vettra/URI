@@ -32,6 +32,6 @@ int main()
     
     x = (x * y) / 12;//ESPERO QUE ATÉ AQUI VOCÊ CONSIGA FORMULAR ALGO TÃO SIMPLES!! SZ
     
-    printf("%.3lf \n", x);//ESPERO QUE ATÉ AQUI VOCÊ NÃO ESQUEÇA O \N!! LOL
+    printf("%.3lf\n", x);//ESPERO QUE ATÉ AQUI VOCÊ NÃO ESQUEÇA O \N!! LOL
     return 0;
 }
